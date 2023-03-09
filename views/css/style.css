@@ -1,0 +1,183 @@
+body {
+    background-color:rgb(255, 255, 255) ;
+}
+
+header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+/*
+.pr{
+    width: 100%;
+    background-color: #3E3E3E;
+}
+*/
+.logo {
+    float: left;
+    background-color: rgb(218, 214, 214);
+    margin-left: 0%;
+    width: 888px;
+    height: 120px;
+}
+
+.imagenlogo {
+    width: 650px;
+    padding-left: 60px;
+}
+
+.login {
+    float: right;
+    background-color: rgb(218, 214, 214);;
+    height: 120px;
+    width: 405px;
+
+}
+
+.boton {
+    border-radius: 20%;
+    border-color: rgb(255, 255, 255);
+    border-style: groove rgb(255, 0, 0);
+    color: white;
+    background-color: #1c7293;
+    margin: 35px;
+    margin-left: 3px;
+    padding: 10px;
+    float: right;
+
+}
+
+.linea {
+    background-color: #1c7293;
+    height: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.nosotros {
+/*    background-image: url('https://www.mitsubishi-motors.com.pe/blog/wp-content/uploads/2020/06/auto-hatchbak-ventajas-mitsubishi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #F0EEED; */  
+    font-size: 19px;
+    padding-bottom: 30px;
+}
+
+.p1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding-left: 10%;
+}
+
+.titulo {
+    padding-top: 0px;
+    margin-top: 0%;
+    margin-bottom: 30%;
+}
+
+.titulo1 {
+    padding-bottom: 30px;
+
+}
+
+.img {
+    padding-left: 30px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    background-color: rgb(200, 200, 200);
+    margin: 20px 30px 15px 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text {
+    background-color: rgb(170, 170, 170);
+    margin-top: 50px;
+    padding-top: 20%;
+    margin-bottom: 13%;
+}
+
+.text1 {
+    background-color: rgb(170, 170, 170);
+    margin-top: 90px;
+    padding-top: 15%;
+}
+
+.text2 {
+    background-color: rgb(170, 170, 170);
+    margin-top: 10px;
+    padding-top: 12%;
+}
+
+
+.footer {
+    background-color: rgb(170, 170, 170);
+    width: 100%;
+}
+
+.a1 {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+  
+.img1 {
+    padding-left: 400px;
+}
+  
+.img2 {
+    padding-left: 80px;
+}
+  
+.a1 a {
+    color: inherit;
+    display: block;
+    text-align: center;
+}
+  
+h6{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.boton-alquilar{
+    background-color: #3E3E3E;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.boton-alquilar:hover {
+    background-color: #707070;
+}
